@@ -9,11 +9,11 @@ from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader, TensorDataset, random_split
 
-    """[summary]
-    https://www.kaggle.com/awadhi123/red-wine-quality-pytorch
-    Returns:
-        [type]: [description]
-    """
+"""[summary]
+https://www.kaggle.com/awadhi123/red-wine-quality-pytorch
+Returns:
+[type]: [description]
+"""
 #import of df
 filename = "./data/wine.csv"
 df = pd.read_csv(filename)
