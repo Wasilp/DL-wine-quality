@@ -6,8 +6,8 @@ Get better understanding in pytorch and how neural network work.
 
 ### Project overview
 
-The datset was already downloaded and merged for us -> ./data/wine.csv
-The **baseline model** -> **experiments_wineQ.ipynb**
+The datset was already downloaded and merged for us -> ./data/wine.csv  
+The **baseline model** -> **experiments_wineQ.ipynb**  
 The **baseline model** was composed with 
 - hidden neurons: 100
 - hidden layer: 1 
@@ -24,9 +24,9 @@ The accuracy for the **baseline model** was first around 50% before upsampling t
 Ray tune optimisation -> **experiments_personal_model_ray.ipynb**
 
 In that notebook i experienced parameters optimisation with Ray tune then i set this parameters in experiments_personal_model.ipynb.
-As i couldn't test parameters in the range i wanted (as it take a certain time) this might not be the best parameters but this allowed me to get some experience with ray tune and have a model how will be able to get best params for my futur projects.  
+As i couldn't test parameters in the range i wanted (as it take a certain time) this might not be the best parameters but this allowed me to get some experience with ray tune and have a model how will be able to get best params for my futur projects.    
 
-Tuned baseline model -> **experiments_personal_model.ipynb**
+Tuned baseline model -> **experiments_personal_model.ipynb**  
 Is the Baseline model that i reworked to be more generic and changed my model parameters from ray tunes best params as mentioned. I also upsampled my target as there was some outliers in the dataset.
 
 - hidden neurons: 200
