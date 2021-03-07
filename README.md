@@ -4,7 +4,7 @@ Deep learning project realised during Becode training
 # Objectives
 Get better understanding in pytorch and how neural network work.
 
-### Project overview
+# Project overview
 
 The datset was already downloaded and merged for us -> ./data/wine.csv  
 The **baseline model** -> **experiments_wineQ.ipynb**  
