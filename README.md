@@ -42,7 +42,7 @@ Is the Baseline model that i reworked to be more generic and changed my model pa
 The accuracy for this model was a bit higher and in some test reached nearly 95%. The final test i did give me 88.75% for the train set and 85% for the test set.
 
 # Others experiments  
- Standarise dataset which did not change that much in the accuracy -> **experiments_personal_model_stdScaler.ipynb
+ Standarise dataset which did not change that much the accuracy -> **experiments_personal_model_stdScaler.ipynb**
 
 I have test also others models that i found on kaggle or Medium post  
 -> **experiments_wine_should_have_been_simple_way.ipynb**  
